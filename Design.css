@@ -1,0 +1,45 @@
+body {font-family:Lucida Handwriting;
+	background-color:rgb(22,105,122);
+	text-align: center;
+  
+}
+h1 {
+	font-family:Brush Script MT;
+	color:rgb(219,100,0);
+	font-weight:100;
+	letter-spacing:3px;
+	
+}
+img {width: 200px;
+     height: 250px;
+     }
+
+h2{ color:rgb(255,166,43);
+font-family:times;
+}
+
+p{ color:rgb(249,224,174);}
+
+li{color:white;}
+
+a{ color: rgb(138,215,193);
+text-decoration: none;
+font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .container{
+  	width: 700px
+  }
+}
+
+@media (max-width: 720px) {
+  .container{
+  	width: 500px
+  }
+}
+
+@media (max-width: 540px) {
+  .container{
+  	width: 300px
+  }
